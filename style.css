@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* menu */
+nav {
+  border: #b1b0b2 solid 1px;
+  padding: 25px;
+  margin: 2px 0 0 2px;
+}
+.container-geral {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-geral h2 {
+  margin-left: 10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.navbar li {
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar a:hover {
+  font-weight: bold;
+  color: #b1b0b2;
+}
+
+/* container geral da main */
+.container {
+  margin: 10px;
+}
+
+
+
+/* container develop */
+.container-develop {
+  display: block;
+  margin: 6px;
+  font-size: 20px;
+}
+.no-underline {
+  text-decoration: none;
+}
+.container-develop strong {
+  font-family: "Mr De Haviland", cursive;
+}
+.container-develop strong:hover {
+  text-shadow: #0056b3 2px 1px 3px;
+}
