@@ -18,7 +18,7 @@
 <body>
 
     <!-- container de navegação -->
-    <nav>
+    <nav class="menu">
         <div class="container-geral">
             <h2>Blog</h2>
             <ul class="navbar">
@@ -30,40 +30,40 @@
     </nav>
 
     <div class="container">
-        <main>
+        <main id="posts-container">
             <article class="post">
                 <img src="img/f1.jpg" alt="">
-                <h3>Algum Titulo</h3>
-                <p>
+                <h3 class="title">Algum Titulo</h3>
+                <p class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus fuga maxime, odio quis
                     natus corrupti neque labore quam, molestiae eos maiores id rerum, rem ipsum eius placeat eum
                     eligendi?
                 </p>
-                <p>Por: Pedro Fernandes</p>
+                <p class="author">Por: Pedro Fernandes</p>
                 <a href="">Ler Mais</a>
             </article>
 
             <article class="post">
                 <img src="img/f2.jpg" alt="">
-                <h3>Algum Titulo</h3>
-                <p>
+                <h3 class="title">Algum Titulo</h3>
+                <p class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus fuga maxime, odio quis
                     natus corrupti neque labore quam, molestiae eos maiores id rerum, rem ipsum eius placeat eum
                     eligendi?
                 </p>
-                <p>Por: Pedro Fernandes</p>
+                <p class="author">Por: Pedro Fernandes</p>
                 <a href="">Ler Mais</a>
             </article>
 
             <article class="post">
                 <img src="img/f3.jpg" alt="">
-                <h3>Algum Titulo</h3>
-                <p>
+                <h3 class="title">Algum Titulo</h3>
+                <p class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus fuga maxime, odio quis
                     natus corrupti neque labore quam, molestiae eos maiores id rerum, rem ipsum eius placeat eum
                     eligendi?
                 </p>
-                <p>Por: Pedro Fernandes</p>
+                <p class="author">Por: Pedro Fernandes</p>
                 <a href="">Ler Mais</a>
             </article>
         </main>
@@ -71,17 +71,17 @@
         <aside id="sidebar">
             <!-- pesquisa -->
             <section id="search-bar">
-                <h4>Busca</h4>
+                <h4 class="title">Busca</h4>
                 <form>
                     <input type="text" placeholder="Pesquise no Blog">
-                    <input type="submit" value="">
+                    <input class="submit" type="submit" value="Buscar">
                 </form>
             </section>
 
             <section id="categories">
-                <h4>Categorias</h4>
+                <h4 class="title">Categorias</h4>
                 <nav>
-                    <ul>
+                    <ul class="list">
                         <li><a href="#">Paisagens</a></li>
                         <li><a href="#">Aventura</a></li>
                         <li><a href="#">Viagens longas</a></li>
@@ -92,7 +92,7 @@
             </section>
 
             <section id="tags">
-                <h4>Tags</h4>
+                <h4 class="title">Tags</h4>
                 <div id="tags-container">
                     <a href="#">Lifestyle</a>
                     <a href="#">Viagem</a>
